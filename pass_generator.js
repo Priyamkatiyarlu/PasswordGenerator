@@ -16,7 +16,7 @@ let password = "";
 let passwordLength = 10;
 let checkCount = 0;
 handleSlider();
-uppercaseCheck.checked=true;
+uppercaseCheck.checked=false;
 
 function handleSlider(){
     inputSlider.value = passwordLength;
