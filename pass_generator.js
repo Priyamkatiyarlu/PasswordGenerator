@@ -41,8 +41,8 @@ function generateUppercase(){
     return String.fromCharCode(getRandInt(65,91));
 }
 function generateSymbols(){
-    const randNum = getRandInt(0,symbols.length);
-    return symbols.charAt[randNum];
+    let randNum = getRandInt(0,symbols.length);
+    return symbols.charAt(randNum);
 }
 
 function calcStrength(){
@@ -78,7 +78,7 @@ async function copyContent(){
 
     setTimeout( () => {
         copyMsg.classList.remove("active");
-    },2000);
+    },2500);
 } 
 inputSlider.addEventListener('input', (e)=>{
     passwordLength = e.target.value;
