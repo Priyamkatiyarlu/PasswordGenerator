@@ -162,6 +162,10 @@ generateBtn.addEventListener('click', ()=>{
     passwordDisplay.value = password;
 
 });
+
+// pass display not working fine
+
+
 // generatebutton.addEventListener('click',()=>{
 //     if(checkCount==0){
 //         return;
